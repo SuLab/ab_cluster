@@ -22,3 +22,16 @@ Options:
   --min-center-size=disabled: disable megaclustering.
                               Warning: very slow and memory hungry!
                               Don't use with large datasets.
+
+
+Test files
+==========
+Here you can download a test input file (and its output file) to give a try:
+
+https://copy.com/9NUMjTVtbarFXmU8
+
+./cluster 1M.json 1M.out
+
+* Input file, 1M.json, contains 1 million Ab sequence objects
+
+* Output file, 1M.out, is a text file with each row as the assigned cluster number for each sequence from the input file (in the same order).
